@@ -1,0 +1,26 @@
+[Unit]
+Description=XDO's distributed currency daemon
+After=network.target
+
+[Service]
+User=xando
+Group=xando
+
+Type=forking
+PIDFile=/var/lib/xandod/xandod.pid
+
+ExecStart=/usr/bin/xandod -daemon -pid=/var/lib/xandod/xandod.pid \
+          -conf=/etc/xando/xando.conf -datadir=/var/lib/xandod
+
+ExecStop=-/usr/bin/xando-cli -conf=/etc/xando/xando.conf \
+         -datadir=/var/lib/xandod stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

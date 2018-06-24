@@ -1,0 +1,26 @@
+# /etc/conf.d/xandod: config file for /etc/init.d/xandod
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/xando/xando.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/xandod"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/xandod.pid"
+
+# Where to write xandod data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/xandod"
+
+# User and group to own xandod process
+#BITCOIND_USER="xando"
+#BITCOIND_GROUP="xando"
+
+# Path to xandod executable
+#BITCOIND_BIN="/usr/bin/xandod"
+
+# Nice value to run xandod under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

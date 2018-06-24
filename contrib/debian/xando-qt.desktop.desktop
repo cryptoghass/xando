@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=XDO
+Comment=XDO P2P Cryptocurrency
+Exec=xando-qt %u
+Terminal=false
+Type=Application
+Icon=xando128
+MimeType=x-scheme-handler/xando;
+Categories=Office;Finance;
+Name[en_US]=xando-qt.desktop

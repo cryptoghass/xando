@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/xando_bg.qm</file>
+        <file alias="de">locale/xando_de.qm</file>
+        <file alias="en">locale/xando_en.qm</file>
+        <file alias="es">locale/xando_es.qm</file>
+        <file alias="fi">locale/xando_fi.qm</file>
+        <file alias="fr">locale/xando_fr.qm</file>
+        <file alias="it">locale/xando_it.qm</file>
+        <file alias="ja">locale/xando_ja.qm</file>
+        <file alias="pl">locale/xando_pl.qm</file>
+        <file alias="pt">locale/xando_pt.qm</file>
+        <file alias="ru">locale/xando_ru.qm</file>
+        <file alias="sk">locale/xando_sk.qm</file>
+        <file alias="sv">locale/xando_sv.qm</file>
+        <file alias="vi">locale/xando_vi.qm</file>
+        <file alias="zh_CN">locale/xando_zh_CN.qm</file>
+        <file alias="zh_TW">locale/xando_zh_TW.qm</file>
+    </qresource>
+</RCC>
