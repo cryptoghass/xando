@@ -1,5 +1,5 @@
 ---
-name: "xando-rpi2-2.1.7"
+name: "xando-rpi2-2.0"
 enable_cache: true
 suites:
 - "trusty"
