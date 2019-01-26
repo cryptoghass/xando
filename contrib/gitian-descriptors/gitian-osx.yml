@@ -1,5 +1,5 @@
 ---
-name: "xando-osx-2.3"
+name: "xando-osx-2.0"
 enable_cache: true
 suites:
 - "trusty"
