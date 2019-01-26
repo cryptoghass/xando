@@ -137,9 +137,9 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0xa9632d8a5101fcc13fc1553ae0aeb2a382359e7ce5326564c53082adbf134e14"));
         
 
-        vSeeds.push_back(CDNSSeedData("seed1.xando.me", "seed1.xando.me"));
-        vSeeds.push_back(CDNSSeedData("seed2.xando.me", "seed2.xando.me"));
-        vSeeds.push_back(CDNSSeedData("seed3.xando.me", "seed3.xando.me"));
+        vSeeds.push_back(CDNSSeedData("78.97.54.58", "78.97.54.58"));
+        vSeeds.push_back(CDNSSeedData("84.117.32.177", "84.117.32.177"));
+        vSeeds.push_back(CDNSSeedData("209.246.143.78", "209.246.143.78"));
         //vFixedSeeds.clear();
         //vSeeds.clear();
 
