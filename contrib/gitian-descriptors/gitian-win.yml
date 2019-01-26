@@ -1,5 +1,5 @@
 ---
-name: "xando-win-2.3"
+name: "xando-win-2.0"
 enable_cache: true
 suites:
 - "trusty"
